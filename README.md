@@ -9,14 +9,22 @@ Please note, I don't know Arabic or Hebrew. I have checked the results by patter
 
 Install
 -----------------
-Clone it into Sublime Package directory.
+Clone it into Sublime `Packages/` directory. If you don't know how to access the Sublime package directory, go to `Preferences > Browse Packages...` and you will be taken to the `Packages/` directory where you will `git clone` this repository into.
 
 <img alt="" src="https://lh6.googleusercontent.com/-zm8xnRDkluI/UG9mLrQYgPI/AAAAAAAAEm0/8qOUUMngOlw/s800/rtl-sublime-text.jpg" title="Sublime Text 2 - BiDi Plugin" class="alignnone" width="800" height="569">
 
 Set Font face to any Arabic supporting font (Arial) in user settings. <br>
+
 <img alt="" src="https://lh3.googleusercontent.com/-l_CN_p6kJKM/UHHVlhvTU5I/AAAAAAAAEnY/8fLi3mbYoUU/s412/sublime-text2-user-pref-menu.jpg" title="Sublime text 2 user settings" class="alignnone" width="412" height="321"> <br>
 
 <img alt="" src="https://lh6.googleusercontent.com/-VM_A9JCJhT0/UHHVlFSsMNI/AAAAAAAAEnU/CXvpyMjdv2U/s516/sublime-text2-user-pref.jpg" title="Sublime text 2 user settings" class="alignnone" width="516" height="153">
+
+```
+{
+	"font_face": "arial",
+	"font_size": 16
+}
+```
 
 Usage
 ----------------------
@@ -28,11 +36,9 @@ Tools > Bidirectional text (ctrl+b)
 <img alt="" src="https://lh6.googleusercontent.com/-o8kkAWZDmcw/UG9lAk9omKI/AAAAAAAAEmk/u__PYos0-IY/s800/bidi-sublime-text2.jpg" title="Sublime text 2 Bidirectional text" class="alignnone" width="800" height="569">
 
 
-Command Accebility 
+Command Accessibility 
 -------------------
-Tools > Bidirectional text
-Ctrl + B
-Right click > Bidirectional text
+Tools > Bidirectional text `Ctrl + B` or you can right click on your selected/highlighted text and choose `Bidirectional text`.
 
 Bug tracker
 ----------
